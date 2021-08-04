@@ -1,0 +1,43 @@
+body {
+    background-color: #d5eeeb;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+    margin: 50px 15%;
+    width: 70%;
+    flex-direction: row;
+}
+
+
+
+.workGrid {
+    display: grid;
+    margin: 0px 15%;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    background-clip: padding-box;
+}
+
+@media only screen and (max-width: 600) {
+    
+}
